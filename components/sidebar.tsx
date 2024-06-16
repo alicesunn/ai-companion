@@ -30,6 +30,7 @@ export const Sidebar = () => {
     ];
 
     const onNavigate = (url: string, pro:boolean) => {
+        // Check subscription
         return router.push(url);
     }
 
